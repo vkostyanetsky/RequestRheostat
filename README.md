@@ -8,6 +8,6 @@ There is example how the task can be solved. The implementation is in a `Request
 
 The configuration doesn't really make requests, but it writes every attempt to do it to the `Requests` information register. You can play with parameters on the right part of the form and see how many requests the application is going to make per second according to what you choose. 
 
-The "Exceedings" list is intended to warn you if there are moments when a number of requests made trespasses the limitation set.
+The "Exceedings" list down below is intended to warn you if there are moments when a number of requests made trespasses the limitation you set.
 
 ![Interface](Images/interface.png)
