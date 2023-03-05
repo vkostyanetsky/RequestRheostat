@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.15">
 	<ConfigVersions>
-		<Metadata name="CommonModule.RequestsServer" id="36d1d082-699b-4343-9a4a-2cb79ae02b09" configVersion="928a67d5a1026a45afb6a78b3f7c748600000000"/>
-		<Metadata name="CommonModule.RequestsServer.Module" id="36d1d082-699b-4343-9a4a-2cb79ae02b09.0" configVersion="fc2967514c0f694f879eef9c4f8c881e00000000"/>
+		<Metadata name="CommonModule.RequestsServer" id="36d1d082-699b-4343-9a4a-2cb79ae02b09" configVersion="cf60d4386ea2e74d9987dfd54e0af22700000000"/>
+		<Metadata name="CommonModule.RequestsServer.Module" id="36d1d082-699b-4343-9a4a-2cb79ae02b09.0" configVersion="8d8258fd4de094418db8325b115fde0900000000"/>
 		<Metadata name="Configuration.OutgoingRequestsLimiter" id="363a96a0-b68d-4d2d-9c83-2e55a8cf60bb" configVersion="8b0c5bcc25fe034ea5ab495428fa405800000000"/>
 		<Metadata name="Configuration.OutgoingRequestsLimiter.HomePageWorkArea" id="b4c1ea71-9a08-43fe-9ca1-c601b8f17fdc.8" configVersion="f7c5c64e396ed84b86b436b478d4bd1900000000"/>
 		<Metadata name="Constant.MaximumRequestsNumberPerSecond" id="489b686b-fe55-4c74-bbda-391a79de1c4c" configVersion="9cf0f20c015cd7429be5bd66507c320200000000"/>

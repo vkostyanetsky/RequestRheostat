@@ -3,7 +3,7 @@
 
 #Region Public
 
-Procedure MakeRequest(SourceID) Export
+Procedure MakeRequest(JobNumber) Export
 
 	Record = InformationRegisters.Requests.CreateRecordManager();
 
@@ -11,7 +11,7 @@ Procedure MakeRequest(SourceID) Export
 	
 	StickToMaximumRequestsNumberPerSecond();
 		
-	Record.JobNumber = SourceID;
+	Record.JobNumber = JobNumber;
 	Record.RequestDateInMS = CurrentUniversalDateInMilliseconds();
 	
 	Record.RequestDate = CurrentSessionDate();	
@@ -20,10 +20,10 @@ Procedure MakeRequest(SourceID) Export
 	
 EndProcedure
 
-Procedure MakeRequests(SourceID, RequestsNumber) Export
+Procedure MakeRequests(JobNumber, RequestsNumber) Export
 
 	For RequestNumber = 1 To RequestsNumber Do
-		MakeRequest(SourceID);	
+		MakeRequest(JobNumber);	
 	EndDo;
 	
 EndProcedure
