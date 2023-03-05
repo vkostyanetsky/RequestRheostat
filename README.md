@@ -10,4 +10,4 @@ The configuration doesn't really make requests, but it writes every attempt to d
 
 The "Exceedings" list is intended to warn you if there are moments when a number of requests made thresspass the limitation set.
 
-![Interface][Images/interface.png]
+![Interface](Images/interface.png)
