@@ -1,4 +1,4 @@
-# ⏱️ ✖️ ⚙️ Outgoing Requests Limiter
+# ⏱️ ✖️ ⚙️ Request Rheostat
 
 Sometimes you need to limit the number of requests which your application makes to an external resource per second. It's obviously how to deal with it if you have only one place where you make requests (a scheduled job, for instance), but there can be many of them: for instance, a lot of background jobs.
 
